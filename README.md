@@ -12,9 +12,9 @@
 
 ## Java版本
 
-1.MethodMapping.java负责解析卡顿堆栈
+1. MethodMapping.java负责解析卡顿堆栈
 
-2.EvilMethodStackFlameGraphUtils.java负责将解析之后的堆栈转换为.folded文件
+2. EvilMethodStackFlameGraphUtils.java负责将解析之后的堆栈转换为.folded文件
 
 3. 使用 [FlameGraph](https://github.com/brendangregg/FlameGraph) 将上面输出的 1581129760409.folded 转到 svg 文件
 
