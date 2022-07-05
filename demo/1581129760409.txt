@@ -8,7 +8,7 @@ sample.tencent.matrix.trace.TestTraceMainActivity B ()V(381ms)
 sample.tencent.matrix.trace.TestTraceMainActivity A ()V(11237ms)
 sample.tencent.matrix.trace.TestTraceMainActivity testJankiess (Landroid.view.View;)V(11237ms)
 android.os.Handler dispatchMessage (Landroid.os.Message;)V(11239ms)
-1
+16
 
 
 sample.tencent.matrix.trace.TestTraceMainActivity E ()V(15ms)
@@ -17,7 +17,7 @@ sample.tencent.matrix.trace.TestTraceMainActivity B ()V(381ms)
 sample.tencent.matrix.trace.TestTraceMainActivity A ()V(11237ms)
 sample.tencent.matrix.trace.TestTraceMainActivity testJankiess (Landroid.view.View;)V(11237ms)
 android.os.Handler dispatchMessage (Landroid.os.Message;)V(11239ms)
-1
+15
 
 
 sample.tencent.matrix.trace.TestTraceMainActivity F ()V(21ms)

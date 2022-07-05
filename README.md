@@ -32,6 +32,7 @@
 
    ``` shell
    python3 main.py workflow_traces demo/1581129760409.log > demo/1581129760409.txt demo/methodMapping.txt
+   python3 main.py workflow_traces /Users/admin/StudioProjects/demo/app/matrixTrace/1581129760409.log > /Users/admin/StudioProjects/demo/app/matrixTrace/1581129760409.txt /Users/admin/StudioProjects/demo/app/matrixTrace/methodMapping.txt
    ```
 
 4. 使用 [FlameGraph](https://github.com/brendangregg/FlameGraph) 将上面输出的 1581129760409.txt 转到 svg 文件
@@ -40,7 +41,10 @@
     stackcollapse.pl demo/1581129760409.txt > demo/1581129760409.folded
     flamegraph.pl demo/1581129760409.folded > demo/1581129760409.svg
    ```
-
+   ``` shell
+    stackcollapse.pl /Users/admin/StudioProjects/demo/app/matrixTrace/1581129760409.txt > /Users/admin/StudioProjects/demo/app/matrixTrace/1581129760409.folded
+    /Users/admin/StudioProjects/FlameGraph/flamegraph.pl /Users/admin/StudioProjects/demo/app/matrixTrace/1581129760409.folded > /Users/admin/StudioProjects/demo/app/matrixTrace/1581129760409.svg
+   ```
 ## Contributing
 
 PRs accepted.
